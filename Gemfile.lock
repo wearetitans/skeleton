@@ -39,6 +39,7 @@ GEM
     activesupport (3.0.5)
     addressable (2.2.4)
     arel (2.0.9)
+    awesome_print (0.3.2)
     bcrypt-ruby (2.1.4)
     builder (2.1.2)
     capybara (0.4.1.2)
@@ -158,6 +159,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   capybara
   cucumber
   devise!

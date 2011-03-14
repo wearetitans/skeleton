@@ -183,6 +183,7 @@ Devise.setup do |config|
   #   manager.default_strategies(:scope => :user).unshift :some_external_strategy
   # end
 
-  config.omniauth :facebook, "APP_ID", "APP_SECRET"
+  facebook = YAML.load_file("#{::Rails.root}/config/facebook.yml")
+  config.omniauth :facebook, facebook['app_id'], facebook['app_secret']
 
 end

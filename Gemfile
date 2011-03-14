@@ -10,6 +10,7 @@ gem "oa-oauth", :require => "omniauth/oauth"
 gem 'haml-rails'
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'steak'
