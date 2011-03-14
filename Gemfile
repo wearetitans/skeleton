@@ -5,6 +5,7 @@ gem 'rails', '3.0.5'
 gem 'sqlite3'
 
 gem 'devise', :git => 'https://github.com/plataformatec/devise.git'
+gem 'haml-rails'
 
 group :development, :test do
   gem 'rspec-rails'
